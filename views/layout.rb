@@ -5,7 +5,7 @@
 		<title>Ruby Weather Web App</title>
 
 		<!--CSS-->
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="../style.css">
 		<link href='http://fonts.googleapis.com/css?family=Fontdiner+Swanky' rel='stylesheet' type='text/css'>
 
 	</head>
