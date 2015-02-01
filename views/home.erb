@@ -1,16 +1,57 @@
-<body>
-	<div class="header">
-			<h1> Ruby Weather App</h1>
-			<p> Final Ruby Challenge for Skillcrush Web Developer Blueprint</p>
-	</div>
+<body id="home">
 
-	<form method="post" action="/weather">
-		<h1> Please enter your city or zip code:  <br /> <input type="text" name="post[location]" />
-		<input type="submit" name="Search" /> </h1>
-	</form>
+<!-- Header -->
+    <div class="intro-header">
 
-	<footer>
-        <p>© Copyright 2015 MJDesignZ</p>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="intro-message">
+                        <h1>Ruby Weather App</h1>
+                        <h3>Final Ruby Challenge for Skillcrush Web Developer Blueprint</h3>
+                        <hr class="intro-divider">
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!--Page Content-->
+    <div class="container">
+
+    	<div class="row">
+
+    		<div class=".col-md-6 .col-md-offset-3 text-center">
+
+    			<form method="post" action="/weather">
+					<h1> Please enter your city or zip code:</h1>  <br /> <input type="text" name="post[location]" placeholder="Your location"/>
+						<button type="submit" name="Search">Forecast Me!</button>
+				
+				</form>
+
+			</div>
+
+		</div>
+
+	</div><!--Closes Page Content Container-->
+
+	<!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    
+                    <p class="copyright text-muted small">Copyright &copy; MJDevelopZ 2015. All Rights Reserved</p>
+
+                </div>
+            </div>
+        </div>
     </footer>
-        
+	    
 </body>

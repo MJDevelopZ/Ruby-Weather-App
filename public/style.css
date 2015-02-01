@@ -1,7 +1,99 @@
-.header{
-	display: center;
+#home{
+	background: url("img/map.png") no-repeat center center;
 }
-.header h1{
+
+.intro-header{
+	margin-top: 15%;
+}
+
+.intro-message h1{
 	font-family: 'Fontdiner Swanky', cursive;
-	color:#cb2c31;
+	font-size: 72px;
+	color:#1d3e5e;
+	
+}
+
+.intro-message h3{
+	font-family: 'Playfair Display', serif;
+	color: #26597d;
+}
+
+form h1{
+	font-family: 'Playfair Display', serif;
+	color: #404d64;
+}
+
+button{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.forecast{
+	margin-top: 25%;
+}
+
+.forecast h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 65px;
+	color: #1d3e5e;
+}
+
+.forecast p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	color: #26597d;
+	padding-top: 5%;
+}
+
+/*Cloudy ERB*/
+#cloudy{
+	background: url("img/cloudy.png") no-repeat center center;
+}
+
+/*Default ERB*/
+#default{
+	background: url("img/default.jpg") repeat center center;
+}
+
+#unsure{
+	color: #debc4e;
+}
+
+/*Fog ERB*/
+#fog{
+	background: url("img/fog.jpg") no-repeat center center;
+}
+
+/*Rain ERB*/
+#rain{
+	background: url("img/rainy.png") no-repeat center center;
+}
+
+/*Snow ERB*/
+#snow{
+	background: url("img/snowy.png") no-repeat center center;
+}
+
+/*Sunny ERB*/
+#sunny{
+	background: url("img/sunny.png") no-repeat center center;
 }
